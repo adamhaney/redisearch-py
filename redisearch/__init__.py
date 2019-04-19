@@ -73,5 +73,6 @@ from .document import Document
 from .client import Client, NumericField, TextField, GeoField, TagField
 from .query import Query, NumericFilter, GeoFilter, SortbyField
 from .auto_complete import AutoCompleter, Suggestion
+from .aggregation import AggregateRequest, AggregateResult, Cursor
 
 
